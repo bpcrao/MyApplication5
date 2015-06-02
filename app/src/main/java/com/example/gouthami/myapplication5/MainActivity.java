@@ -40,12 +40,35 @@ public class MainActivity extends ActionBarActivity {
     }
 
     /** Called when the user touches the button */
-    public void sendMessage(View view) {
+    public void sendMessageCapstone(View view) {
+        showToaster(getResources().getString(R.string.mess_capstone));
+    }
+
+    private void showToaster(CharSequence text) {
         Context context = getApplicationContext();
-        CharSequence text = "This button will launch my capstone App!";
         int duration = Toast.LENGTH_SHORT;
 
         Toast toast = Toast.makeText(context, text, duration);
         toast.show();
+    }
+
+    public void sendMessageSpotify(View view) {
+        showToaster(getResources().getString(R.string.mess_spotify));
+    }
+
+    public void sendMessageScores(View view){
+        showToaster(getResources().getString(R.string.mess_scores));
+    }
+
+    public void sendMessageLibrary(View view){
+        showToaster(getResources().getString(R.string.mess_library));
+    }
+
+    public void sendMessageBuildBig(View view){
+        showToaster(getResources().getString(R.string.mess_buildbig));
+    }
+
+    public void sendMessageXYZ(View view){
+        showToaster(getResources().getString(R.string.mess_xyz));
     }
 }

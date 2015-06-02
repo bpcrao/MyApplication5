@@ -3,4 +3,10 @@
 
     <string name="hello_world">Hello world!</string>
     <string name="action_settings">Settings</string>
+    <string name="mess_spotify">This button will launch my Spotify App!</string>
+    <string name="mess_library">This button will launch my Library!</string>
+    <string name="mess_buildbig">This button will launch Build Big!</string>
+    <string name="mess_xyz">This button will launch XYZ Reader!</string>
+    <string name="mess_scores">This button will launch Scores!</string>
+    <string name="mess_capstone">This button will launch Capstone!</string>
 </resources>
